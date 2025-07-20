@@ -3,7 +3,6 @@ import HOUSE_IMAGE from "@/public/assets/images/house.png"
 import STAR_IMAGE from "@/public/assets/images/star.png"
 import React from "react"
 import Pill from "./Pill"
-import Button from "./Button"
 
 
 const Card: React.FC = () => {
@@ -59,7 +58,6 @@ const Card: React.FC = () => {
             <p className="ml-1 text-[12.95px] font-medium">2-4</p>
           </div>
         </div>
-        <Button title="Big" />
         <p className=" text-[22px] font-semibold">$2,450<span className=" text-[14px] text-[#787878]">/n</span></p>
 
       </div>

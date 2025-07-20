@@ -1,10 +1,10 @@
 import React from 'react'
 import { BtnProps } from '@/interfaces'
-function Button({title}) {
+function Button({styles}) {
   return (
     <>
         <button className='' >
-            {title} 
+            {styles} 
         </button>
     </>
   )

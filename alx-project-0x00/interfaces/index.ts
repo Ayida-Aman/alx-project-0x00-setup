@@ -4,6 +4,5 @@ export interface PillProps {
 
 export interface BtnProps {
   title: string
-  sizes: string
-  shapes:string
+  styles: string
 }
