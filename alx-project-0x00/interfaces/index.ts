@@ -1,7 +1,3 @@
-import React from 'react'
-
-const index = () => {
-
+export interface PillProps {
+  title: string
 }
-
-export default index
